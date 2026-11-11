@@ -5,10 +5,8 @@
 -- NIM         : 2507075
 -- ==================================================================
 
--- Verifikasi versi PostgreSQL dan database yang digunakan
 SELECT current_database();
 SELECT version();
-
 
 -- Membuat tabel (Mulai dari sini)
 CREATE TABLE products (
